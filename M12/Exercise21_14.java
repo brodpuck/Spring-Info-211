@@ -20,7 +20,7 @@ public class Exercise21_14 {
         while (!queue.isEmpty()) {
             String urlString = queue.poll();
             if (!S.contains(urlString)) {
-                System.out.println("Craw " + urlString);
+                System.out.println("Crawl " + urlString);
                 S.add(urlString);
             }
 
